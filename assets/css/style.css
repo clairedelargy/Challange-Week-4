@@ -1,0 +1,13 @@
+.card-body {
+    flex: 1 1 auto;
+    padding: 12rem 1rem;
+}
+
+#countdowntimer {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.alldone {
+    text-align: left;
+}

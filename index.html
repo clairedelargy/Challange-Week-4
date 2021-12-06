@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Coding Challenge</title>
+  </head>
+  <header>
+    <p id="countdowntimer"></p>
+    <button type="button" id="highScoreView" class="btn btn-primary">View High Scores</button>
+  </header>
+  <body>
+    <div class="card text-center"data-state="hidden">
+        <div id="card1" class="card-body">
+          <h3 class="card-title">Coding Quiz Challenge</h3>
+          <p class="card-text">Try to answer the following code-related questions within the time limit. <br>Keep in mind that incorrect answeres will penalize your score/time<br>by ten seconds!</p>
+          <a href="#" id="submit1" class="btn btn-primary">Submit</a>
+        </div>
+        <div id="card2" class="card-body"data-state="hidden">
+            <h3 class="card-title">Commonly used data type DO Not Include:</h3>
+            <a href="#" id="submit1a" class="btn btn-primary">1: strings</a><br><br>
+            <a href="#" id="submit1b" class="btn btn-primary">2: booleans</a><br><br>
+            <a href="#" id="submit1c" class="btn btn-primary">3: alerts</a><br><br>
+            <a href="#" id="submit1d" class="btn btn-primary">4: numbers</a><br><br>
+          </div>
+          <div id="card3" class="card-body"data-state="hidden">
+            <h3 class="card-title">The condition in an if / else statement is enclosed with ________.</h3>
+            <a href="#" id="submit2a" class="btn btn-primary">1. quote</a><br><br>
+            <a href="#" id="submit2b" class="btn btn-primary">2. curly brackets</a><br><br>
+            <a href="#" id="submit2c" class="btn btn-primary">3. parenthesis</a><br><br>
+            <a href="#" id="submit2d" class="btn btn-primary">4. square brackets</a><br><br>
+          </div>
+          <div id="card4" class="card-body"data-state="hidden">
+            <h3 class="card-title">Arrays in JavaScript can be used to store ________.</h3>
+            <a href="#" id="submit3a" class="btn btn-primary">1. numbers and strings</a><br><br>
+            <a href="#" id="submit3b" class="btn btn-primary">2. other arrays</a><br><br>
+            <a href="#" id="submit3c" class="btn btn-primary">3. booleans</a><br><br>
+            <a href="#" id="submit3d" class="btn btn-primary">4. all of the above</a><br><br>
+          </div>
+          <div id="card5" class="card-body"data-state="hidden">
+            <h3 class="card-title">String values must be enclosed within ________ when being assigned to variables.</h3>
+            <a href="#" id="submit4a" class="btn btn-primary">1. commas</a><br><br>
+            <a href="#" id="submit4b" class="btn btn-primary">2. curly brackets</a><br><br>
+            <a href="#" id="submit4c" class="btn btn-primary">3. quotes</a><br><br>
+            <a href="#" id="submit4d" class="btn btn-primary">4. parenthesis</a><br><br>
+          </div>
+          <div id="card6" class="card-body"data-state="hidden">
+            <h3 class="card-title">A very useful too used during developemnt and debugging for printing content to the debugger is:</h3>
+            <a href="#" id="submit5a" class="btn btn-primary">1. JavaScript</a><br><br>
+            <a href="#" id="submit5b" class="btn btn-primary">2. terminal/branch</a><br><br>
+            <a href="#" id="submit5c" class="btn btn-primary">3. for loops</a><br><br>
+            <a href="#" id="submit5d" class="btn btn-primary">4. console log</a><br><br>
+          </div>
+            <form id="card7">
+              <h3 class="alldone">All done!</h3><br><br>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Your Name Here:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name Here">
+              </div>
+            <button type="button" id="submit6" class="btn btn-primary">Submit</button>
+          </form>
+          <div id="card8" class="card-body"data-state="hidden">
+            <h3 class="card-title">View High Scores</h3>
+            <a href="#" id="submit8a" class="btn btn-primary">Go Back</a>
+          </div>
+      </div>
+      <script src="./assets/js/java.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>
